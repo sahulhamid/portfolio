@@ -32,7 +32,7 @@ export default function Nav() {
         </nav>
         <a
           href={profile.resumeUrl}
-          download
+          download="SahulHameed_Resume.pdf"
           className="rounded-full border border-border px-4 py-1.5 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
         >
           Resume

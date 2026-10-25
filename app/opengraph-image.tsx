@@ -17,10 +17,10 @@ export default function OgImage() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px",
-          background: "#ffffff",
+          background: "#0a0a0b",
         }}
       >
-        <div style={{ display: "flex", fontSize: 26, color: "#2563eb", fontWeight: 600 }}>
+        <div style={{ display: "flex", fontSize: 26, color: "#3b82f6", fontWeight: 600 }}>
           {profile.name}
         </div>
         <div
@@ -28,7 +28,7 @@ export default function OgImage() {
             display: "flex",
             fontSize: 60,
             fontWeight: 700,
-            color: "#18181b",
+            color: "#f4f4f5",
             marginTop: 20,
             maxWidth: 980,
           }}
@@ -39,7 +39,7 @@ export default function OgImage() {
           style={{
             display: "flex",
             fontSize: 26,
-            color: "#6b7280",
+            color: "#a1a1aa",
             marginTop: 28,
             maxWidth: 900,
             lineHeight: 1.5,
@@ -55,8 +55,8 @@ export default function OgImage() {
               style={{
                 display: "flex",
                 fontSize: 20,
-                color: "#6b7280",
-                border: "1.5px solid #e5e7eb",
+                color: "#a1a1aa",
+                border: "1.5px solid #27272a",
                 borderRadius: 999,
                 padding: "8px 20px",
               }}
